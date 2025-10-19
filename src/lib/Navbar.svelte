@@ -2,7 +2,7 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 </script>
 
-<div class=" bg-gradient-to-r from-green-900 via-amber-400 via-green-300 to-orange-600">
+<div class="bg-yellow-100">
 	<Navbar>
 		<NavBrand href="/">
 			<img src="/DB20_logo.jpg" class="me-3 h-10 align-middle sm:h-15" alt="DB2.0" />

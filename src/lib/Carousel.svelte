@@ -2,20 +2,16 @@
 	import { Carousel, Controls, CarouselIndicators } from 'flowbite-svelte';
 	import type { HTMLImgAttributes } from 'svelte/elements';
 
-	export const images = [
-		{
-			alt: 'Heathen, Krooked, Anti-Hero and Bird House',
-			src: '/home-carousel-images/skateboards-june-25.jpg',
-			title: 'Skateboards in the shop'
-		}
-	];
+	const { images } = $props();
 
 	let index = $state(0);
 	let image: HTMLImgAttributes | undefined = $state();
 </script>
 
-<div class="max-w-4xl space-y-4">
-	<Carousel {images} onchange={(detail) => (image = detail)}>
+<div class=" max-w-6xl space-y-4">
+	<!-- 'onchange={(detail)}' sets the text under the image to the current alt of the image -->
+	<!-- 'duration' is measured in milliseconds and the time it takes to scroll -->
+	<Carousel {images} onchange={(detail) => (image = detail)} duration={4000}>
 		<Controls />
 		<CarouselIndicators />
 	</Carousel>
