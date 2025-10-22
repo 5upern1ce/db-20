@@ -2,15 +2,19 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 </script>
 
-<div class="bg-yellow-100">
+<div class="bg-slate-200">
 	<Navbar>
+		<!-- Navbrand is the logo and page the logo sends you to -->
 		<NavBrand href="/">
 			<img src="/DB20_logo.jpg" class="me-3 h-10 align-middle sm:h-15" alt="DB2.0" />
-			<!-- <span class="self-center text-3xl font-extrabold whitespace-nowrap text-green-600 dark:text-green-900">DB</span>
-		<span class="inline-block self-center bg-gradient-to-t from-orange-800 via-orange-700 to-orange-300 bg-clip-text text-3xl font-extrabold whitespace-nowrap text-transparent">2.0</span> -->
+
+			<!-- Tailwind based kind of reacreation of the logo using gradients. -->
+			<!--<span class="self-center text-3xl font-extrabold whitespace-nowrap text-green-600 dark:text-green-900">DB</span>
+			<span class="inline-block self-center bg-gradient-to-t from-orange-800 via-orange-700 to-orange-300 bg-clip-text text-3xl font-extrabold whitespace-nowrap text-transparent">2.0</span> -->
 		</NavBrand>
 		<NavHamburger />
 		<NavUl class="">
+			<!-- Each href is the pages on the navbar, just add another -->
 			<NavLi href="/">Home</NavLi>
 			<NavLi href="/about">About</NavLi>
 			<NavLi href="/docs/components/navbar">Navbar</NavLi>

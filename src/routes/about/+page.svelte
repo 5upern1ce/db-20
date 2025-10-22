@@ -1,5 +1,7 @@
 <script>
-	import Navbar from '$lib/Navbar.svelte';
+	import Map from '$lib/Map.svelte';
 </script>
 
-<Navbar />
+<div class="flex h-96 justify-center rounded-md">
+	<Map />
+</div>

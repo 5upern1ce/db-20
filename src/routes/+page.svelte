@@ -1,5 +1,4 @@
 <script>
-	import Navbar from '$lib/Navbar.svelte';
 	import Carousel from '$lib/Carousel.svelte';
 
 	const images = [
@@ -12,14 +11,12 @@
 			title: 'Skateboards in the shop'
 		},
 		{
-			alt: 'New wheels from Sushi, Slimeballs, Santa Cruz and More',
+			alt: 'New wheels from Sushi, Slimeballs, Santa Cruz and More ',
 			src: '/home-carousel-images/new-wheels-oct-17.jpg',
 			title: 'New wheels just in!'
 		}
 	];
 </script>
-
-<Navbar />
 
 <!-- full width row, center the inner fixed-width box -->
 <div class="flex w-full justify-center pt-3">
