@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+	import Facebook from './assets/Facebook.svelte';
 </script>
 
 <div class="bg-gradient-to-r from-orange-400 via-orange-300 to-green-200 shadow-md">
@@ -14,13 +15,12 @@
 			</div>
 		</NavBrand>
 
-		<!-- Mobile hamburger -->
-		<NavHamburger class="text-green-900 hover:text-orange-800" />
-
-		<!-- Nav items (pushed right with ml-auto) -->
-		<NavUl class="ml-auto flex items-center space-x-2">
-			<NavLi href="/" class="rounded px-3 py-2 font-semibold text-green-900 transition hover:bg-green-900/10 hover:text-green-800">Home</NavLi>
-			<NavLi href="/about" class="rounded px-3 py-2 font-semibold text-green-900 transition hover:bg-green-900/10 hover:text-green-800">About</NavLi>
+		<NavHamburger />
+		<NavUl class="font-bold">
+			<!-- Each href is the pages on the navbar, just add another -->
+			<NavLi href="/">Home</NavLi>
+			<NavLi href="/about">About</NavLi>
+			<NavLi href="/contact">Contact</NavLi>
 		</NavUl>
 	</Navbar>
 </div>
