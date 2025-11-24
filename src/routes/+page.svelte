@@ -19,9 +19,9 @@
 </script>
 
 <!-- full width row, center the inner fixed-width box -->
-<h1 class="m-2 flex w-full justify-center pt-3 text-xl font-bold">
-	Welcome to <span class=" self-center pl-1 text-3xl font-extrabold whitespace-nowrap text-green-600 dark:text-green-900">DB</span>
-	<span class="inline-block self-center bg-gradient-to-t from-orange-800 via-orange-700 to-orange-300 bg-clip-text text-3xl font-extrabold whitespace-nowrap text-transparent">2.0</span>
+<h1 class="m-2 flex w-full justify-center pt-3 text-5xl">
+	Welcome to <span class=" self-center pl-1 text-6xl font-extrabold whitespace-nowrap text-green-600 dark:text-green-900">DB</span>
+	<span class="inline-block self-center bg-gradient-to-t from-orange-800 via-orange-700 to-orange-300 bg-clip-text text-6xl font-extrabold whitespace-nowrap text-transparent">2.0</span>
 </h1>
 <div class="flex w-full justify-center pt-3">
 	<div class="w-[800px] max-w-full">

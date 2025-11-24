@@ -12,7 +12,7 @@
 </svelte:head>
 
 <!-- <Navbar /> is a self closing element that calls the navbar element from Navbar.svelte -->
-<div class="overflow-x-hidden">
+<div class="min-h-screen overflow-x-hidden">
 	<Navbar />
 	{@render children?.()}
 </div>
