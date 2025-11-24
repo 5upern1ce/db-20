@@ -19,7 +19,7 @@
 </script>
 
 <!-- full width row, center the inner fixed-width box -->
-<div class="flex w-full justify-center pt-3">
+<div class="flex w-full justify-center rounded-md pt-3">
 	<div class="w-[800px] max-w-full">
 		<Carousel {images} />
 	</div>
